@@ -1,26 +1,36 @@
 console.log("-js connected-")
 
 
-
-
-$('.mainTitle').click(function(){
-
-    const alterMain =$(this)
-    $(this).html(<h2>This has dynamically changed</h2> )
-    
-    
+$('.exampleDiv2').click(function(){
+    console.log('Clicked')
+    $('.exDivShow').css({ background: 'blue'})
+    $('.herokuLink').html("GOAT HEROKU")
+    $('.githubLink').html("GitHub Link:https://git.generalassemb.ly/jmwofford/GoatCRUD")
 })
 
 
-//  $('.e100').click(function () {
+$('.exampleDiv7').click(function(){
+    console.log('Clicked')
+    $('.exDivShow').css({ backgroundImage:('url(/images/jeopardy.png'),backgroundSize: "cover" })
+    $('.herokuLink').html("Jeopardy Heroku")
+    $('.githubLink').html(" GitHub Link:https://git.generalassemb.ly/jmwofford/Jeopardy_game")
+})
 
-//     const popup = $(this)
-//     $(this).html(`<h3>${entertainmentCategory[0].question}</h3>`)
-//     $(this).prepend('<img id="clock" src="timer30.gif" />')
-//     $(this).css({ position: 'absolute', height: '400px', width: '600px', background: 'rgba(0,0,0,.9)' })
-//     $(this).append('<audio autoplay src="jeopardytheme.mp3" type="audio/mp3">');
-//     $(this).append('<button class="isright">Billie Jean</button')
-//     $(this).append('<button class="iswrong">Bonita AppleBum</button')
-//     setTimeout(function () {
-//         popup.replaceWith('<div class="e100"><img class="questionmiss" src="questionmiss.gif"></img></div>')
-//     }, 30000);
+
+
+$('.exampleDiv8').click(function(){
+    console.log('Clicked')
+    $('.exDivShow').css({ background: 'green'})
+    $('.herokuLink').html("Heroku Link (Contract App): ")
+    $('.githubLink').html("GitHub Link: https://git.generalassemb.ly/jmwofford/Project3Actual ")
+})
+
+
+
+$('.exampleDiv9').click(function(){
+    console.log('Clicked')
+    $('.exDivShow').css({ background: 'pink'})
+    $('.herokuLink').html("Others Heroku")
+    $('.githubLink').html("Others Git")
+})
+

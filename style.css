@@ -1,5 +1,10 @@
 body {
   /* background-color: grey; */
+  
+}
+h3{
+  font-size:15px;
+  text-align: center;
 }
 a {
   text-decoration: none;
@@ -40,6 +45,9 @@ a {
   text-align: center;
   transition: 1s;
 }
+.submainParent{
+padding: 30px;
+}
 .subPageMain {
   margin: 15px;
   padding: 10px;
@@ -51,25 +59,86 @@ a {
   text-align: justify;
 }
 .subPageMain2 {
-    margin: 15px;
+    margin: 35px;
     padding: 10px;
     height: 300px;
     font-size: 25px;
-    font-family: cursive;
-    color: white;
+    font-family: serif;
+    border-radius:35px;
+    border:solid black; 
+    color: black;
     padding: 15px;
     text-align: justify;
-    /* background-image: url('https://media.giphy.com/media/Z9afx21K3QUxi/giphy.gif');
-    background-size: cover; */
-    background-color: grey;
+    background-color: beige;
+
   }
+/* ================================== */
+.exampleDiv7 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width:100px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border-radius:65px;
+}.exampleDiv8 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width:100px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border-radius:65px;
+}.exampleDiv9 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width:100px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border-radius:65px;
+}
+  /* =======================
+   */
+  .exampleDiv3{
+    border: solid black;
+    height:520px;
+    width:450px;
+    margin-left:360px;
+  }
+.exampleDiv2 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width:100px;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  border-radius:65px;
+}
 .exampleDiv {
   border: solid black;
   padding: 15px;
   margin: 12px;
+  width:500px;
+  height: 70px;
   background-color: white;
+  text-align: center;
+  /* border-radius:65px; */
 }
-
+.exDivShow{
+  border: solid black;
+  height: 180px;
+  width: auto;
+  margin-top:25px;
+}
+.exDivParent{
+  display: flex;
+  justify-content: space-around;
+}
 
 .logojmw {
   width: 70px;
@@ -92,6 +161,7 @@ a {
 .subPageMain{
     border:solid black;
     height:80px;
+    
 
 }
 .mainCircles{
@@ -99,7 +169,7 @@ a {
     border-radius:25px;
      width:90px;
     height:40px; 
-    background-color: salmon;  
+    background-color: beige;  
     padding: 10px;
     text-align: center;
 }
@@ -108,7 +178,7 @@ a {
     border-radius:25px;
      width:90px;
     height:40px; 
-    background-color: salmon;  
+    background-color: beige;  
     padding: 10px;
     text-align: center;
 }
@@ -118,7 +188,7 @@ a {
      width:90px;
     height:40px;   
     background-color:
-     salmon;
+     beige;
      padding: 10px;
      text-align: center;
 }
@@ -128,7 +198,7 @@ a {
      width:90px;
     height:40px;  
     background-color:
-     salmon; 
+     beige; 
      padding: 10px;
      text-align: center;
 }
@@ -138,7 +208,7 @@ a {
      width:90px;
     height:40px; 
     background-color:
-     salmon;  
+     beige;  
      padding: 10px;
      text-align: center;
 }
@@ -147,4 +217,7 @@ a {
 .circleParent{
     display: flex;
     justify-content: space-around;
+}
+.underConstruction{
+  color:red;
 }
