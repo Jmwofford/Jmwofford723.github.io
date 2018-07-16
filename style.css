@@ -1,56 +1,150 @@
-body{
+body {
+  /* background-color: grey; */
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainTitle {
+  border: solid black;
+}
+.nameTitle {
+  margin-left: 400px;
+}
+
+.parentSection {
+  display: flex;
+  padding: 12px;
+  justify-content: space-around;
+}
+.mainSections {
+  border: solid black;
+  margin: 2px;
+  padding: 5px;
+  font-family: serif;
+  font-size: 25px;
+  width: 150px;
+  height: 30px;
+  border-radius: 45px;
+  text-align: center;
+}
+.mainSections:hover {
+  border: solid black;
+  margin: 2px;
+  background-color: beige;
+  padding: 5px;
+  font-family: serif;
+  font-size: 25px;
+  border-radius: 65px;
+  text-align: center;
+  transition: 1s;
+}
+.subPageMain {
+  margin: 15px;
+  padding: 10px;
+  height: 300px;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  padding: 15px;
+  text-align: justify;
+}
+.subPageMain2 {
+    margin: 15px;
+    padding: 10px;
+    height: 300px;
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+    /* background-image: url('https://media.giphy.com/media/Z9afx21K3QUxi/giphy.gif');
+    background-size: cover; */
     background-color: grey;
-}
-a{
-    text-decoration: none;
-    color:black;
-}
-
-.mainTitle{
-    border:solid black;
-}
-.nameTitle{
-    margin-left:400px;
+  }
+.exampleDiv {
+  border: solid black;
+  padding: 15px;
+  margin: 12px;
+  background-color: white;
 }
 
-.parentSection{
-    display:flex;
-    padding:12px;
-    justify-content: space-around;
+
+.logojmw {
+  width: 70px;
+  height: auto;
+  margin: 3px;
+  position: absolute;
+  margin-left: 1000px;
 }
-.mainSections{
-    border:solid black;
-    margin:2px; 
-    padding:5px;
-    font-family: serif;
-    font-size: 25px;
-    width: 150px;
-    height: 30px;
-    border-radius:45px;
-    text-align:center;
+.logoParent{
+    justify-content: space-between;
+    display: flex;
 }
-.mainSections:hover{
+.logobutton{
     border:solid black;
-    margin:2px; 
-    background-color: beige;
-    padding:5px;
-    font-family: serif;
-    font-size: 25px;
-    border-radius:65px;
-    text-align:center;
-    transition: 3s;
+    border-radius:50%;
+}
+.submainParent{
+    border:solid black;
 }
 .subPageMain{
-    border: solid black;
-    margin:15px;
-    padding:10px;
-    height:300px;
-    background-color: lightblue;
-}
-.exampleDiv{
-    border: solid black;
-    padding:15px;
-    margin:12px;
-    background-color: beige;
+    border:solid black;
+    height:80px;
 
+}
+.mainCircles{
+    border:solid black;
+    border-radius:25px;
+     width:90px;
+    height:40px; 
+    background-color: salmon;  
+    padding: 10px;
+    text-align: center;
+}
+.mainCircles2{
+    border:solid rgb(12, 8, 8);
+    border-radius:25px;
+     width:90px;
+    height:40px; 
+    background-color: salmon;  
+    padding: 10px;
+    text-align: center;
+}
+.mainCircles3{
+    border:solid black;
+    border-radius:25px;
+     width:90px;
+    height:40px;   
+    background-color:
+     salmon;
+     padding: 10px;
+     text-align: center;
+}
+.mainCircles4{
+    border:solid black;
+    border-radius:25px;
+     width:90px;
+    height:40px;  
+    background-color:
+     salmon; 
+     padding: 10px;
+     text-align: center;
+}
+.mainCircles5{
+    border:solid black;
+    border-radius:25px;
+     width:90px;
+    height:40px; 
+    background-color:
+     salmon;  
+     padding: 10px;
+     text-align: center;
+}
+
+
+.circleParent{
+    display: flex;
+    justify-content: space-around;
 }
