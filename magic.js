@@ -1,9 +1,20 @@
 console.log("-js connected-")
 
 
+// const reportForm = {
+
+
+
+// }
+
+$('.navDrop').click(function(){
+    console.log('Clicked')
+    $('.mainSections').css({ display:'flex', flexDirection: 'column'})    
+})
+
 $('.exampleDiv2').click(function(){
     console.log('Clicked')
-    $('.exDivShow').css({ backgroundImage:('url(/images/goatt.png)')})
+    $('.exDivShow2').css({ backgroundImage:('url(/images/goatt.png)')})
     $('.herokuLink').html("Heroku Link: https://safe-sea-48470.herokuapp.com/goats")
     $('.githubLink').html("GitHub Link: https://git.generalassemb.ly/jmwofford/GoatCRUD")
 })
@@ -11,7 +22,7 @@ $('.exampleDiv2').click(function(){
 
 $('.exampleDiv7').click(function(){
     console.log('Clicked')
-    $('.exDivShow').css({ backgroundImage:('url(/images/jeopardy.png'),backgroundSize: "cover" })
+    $('.exDivShow2').css({ backgroundImage:('url(/images/jeopardy.png'),backgroundSize: "cover" })
     $('.herokuLink').html("Jeopardy Heroku")
     $('.githubLink').html(" GitHub Link:https://git.generalassemb.ly/jmwofford/Jeopardy_game")
 })
@@ -20,7 +31,7 @@ $('.exampleDiv7').click(function(){
 
 $('.exampleDiv8').click(function(){
     console.log('Clicked')
-    $('.exDivShow').css({ backgroundImage:('url(/images/contract.png)')})
+    $('.exDivShow2').css({ backgroundImage:('url(/images/contract.png)')})
     $('.herokuLink').html("Heroku Link (Contract App): ")
     $('.githubLink').html("GitHub Link: https://git.generalassemb.ly/jmwofford/Project3Actual ")
 })
@@ -29,7 +40,7 @@ $('.exampleDiv8').click(function(){
 
 $('.exampleDiv9').click(function(){
     console.log('Clicked')
-    $('.exDivShow').css({ background: 'lemonchiffon'})
+    $('.exDivShow2').css({ backgroundImage:('url(/images/chic.png)')})
     $('.herokuLink').html("Others Heroku")
     $('.githubLink').html("Others Git")
 })
@@ -46,12 +57,35 @@ $('.mainCircles').click(function(){
 
 $('.mainCircles2').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("MissionStatement...loremloremlorem")
+    $('.subPageMain2').prepend(' <img class="logopic" src="/images/mongodb.png" />')
+
+    $('.subPageMain2').prepend(' <img class="logopic" src="/images/react.png" />')
+    $('.subPageMain2').prepend(' <img class="logopic" src="/images/rubyrails.png" />')
+    $('.subPageMain2').prepend(' <img class="logopic" src="/images/jquery.gif" />')
+    $('.subPageMain2').prepend(' <img class="logopic" src="/images/nodejs.png" />')
+
    
 })
 
 $('.mainCircles3').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("Investment Ideas")
+    $('.subPageMain2').html(" Investment Ideas +Add a Picture/Chart")
+
+   
+})
+
+$('.mainCircles4').click(function(){
+    console.log('Clicked')
+    $('.subPageMain2').html("some text belongs here  ")
+    $('.subPageMain2').prepend(' <img class="jordanpic" src="/images/jmwga2.jpg" />')
+
+
+})
+
+
+$('.mainCircles5').click(function(){
+    console.log('Clicked')
+    $('.subPageMain2').html("Report Me + Add A Form")
+
    
 })

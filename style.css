@@ -1,6 +1,20 @@
 body {
-  /* background-color: grey; */
-  
+  /* background-image: url('/images/fancyone.jpg');
+  background-size: cover; */
+  background-color: #34495e;
+}
+.logopic{
+  width:120px;
+  height:150px;
+  margin:30px;
+}
+.navDrop{
+  border:solid black;
+  background-color:beige;
+  border-width:3px;
+  border-radius:35px;
+  margin-left:25px;
+  margin-top:25px;
 }
 h3{
   font-size:15px;
@@ -13,40 +27,50 @@ a {
 
 .mainTitle {
   border: solid black;
+
 }
 .nameTitle {
   margin-left: 400px;
+  color: beige;
 }
 
 .parentSection {
-  display: flex;
+  /* display: flex; */
   padding: 12px;
   justify-content: space-around;
 }
 .mainSections {
-  border: solid black;
-  margin: 2px;
+  border: solid beige;
+  color:beige;
+  margin: 15px;
   padding: 5px;
   font-family: serif;
-  font-size: 25px;
+  font-size: 15px;
   width: 150px;
-  height: 30px;
+  height: 20px;
   border-radius: 45px;
   text-align: center;
+  display:none;
 }
 .mainSections:hover {
-  border: solid black;
-  margin: 2px;
-  background-color: beige;
+  border: solid beige;
+  margin: 15px;
+color: beige;
   padding: 5px;
   font-family: serif;
-  font-size: 25px;
+  font-size: 20px;
   border-radius: 65px;
   text-align: center;
-  transition: 1s;
+  background-color: lightgrey;
+  transition: .3s;
 }
 .submainParent{
 padding: 30px;
+background-image: url('https://st2.depositphotos.com/1006018/7909/v/950/depositphotos_79091188-stock-illustration-burlywood-brown-polygon-background.jpg');
+width:950px;
+margin-left:50px;
+border-radius:35px;
+border:solid beige;
 }
 .subPageMain {
   margin: 15px;
@@ -55,8 +79,10 @@ padding: 30px;
   font-size: 25px;
   font-family: cursive;
   color: white;
+  background-color:lightgrey;
   padding: 15px;
   text-align: justify;
+  width:850px;
 }
 .subPageMain2 {
     margin: 35px;
@@ -65,41 +91,50 @@ padding: 30px;
     font-size: 25px;
     font-family: serif;
     border-radius:35px;
-    border:solid black; 
-    color: black;
-    padding: 15px;
+    border:solid beige; 
+    color:#34495e;
+    padding: 35px;
+    background-size:cover;
     text-align: justify;
-    background-color: beige;
+    background-image: url('https://st2.depositphotos.com/1006018/7909/v/950/depositphotos_79091188-stock-illustration-burlywood-brown-polygon-background.jpg');
 
+  }
+  .bannerjordan{
+    height: 300px;
+    width:900px;;
   }
 /* ================================== */
 .exampleDiv7 {
   border: solid black;
   padding: 15px;
   /* margin: 12px; */
-  width:100px;
-  height: 70px;
-  background-color: white;
+  width: 150px;
+  height: 10px;
+  /* background-color: lemonchiffon; */
   text-align: center;
   border-radius:65px;
 }.exampleDiv8 {
   border: solid black;
   padding: 15px;
   /* margin: 12px; */
-  width:100px;
-  height: 70px;
-  background-color: white;
+  width: 150px;
+  height: 8px;
+  /* background-color: lemonchiffon; */
   text-align: center;
   border-radius:65px;
 }.exampleDiv9 {
   border: solid black;
   padding: 15px;
   /* margin: 12px; */
-  width:100px;
-  height: 70px;
-  background-color: white;
+  width: 150px;
+  height: 8px;
+  /* background-color: lemonchiffon; */
   text-align: center;
   border-radius:65px;
+}
+.exampleDiv7:hover,.exampleDiv8:hover,.exampleDiv9:hover,.exampleDiv2:hover{
+  border: solid beige;
+  color:beige; 
 }
   /* =======================
    */
@@ -113,9 +148,9 @@ padding: 30px;
   border: solid black;
   padding: 15px;
   /* margin: 12px; */
-  width:100px;
-  height: 70px;
-  background-color: white;
+  width: 150px;
+  height: 8px;
+  /* background-color: beige; */
   text-align: center;
   border-radius:65px;
 }
@@ -132,8 +167,16 @@ padding: 30px;
 .exDivShow{
   border: solid black;
   height: 180px;
-  width: auto;
+  width: 850px;
   margin-top:25px;
+  margin-left:130px;
+}
+.exDivShow2{
+  border: solid black;
+  height: 480px;
+  width: 850px;
+  margin-top:25px;
+  margin-left:130px;
 }
 .exDivParent{
   display: flex;
@@ -152,7 +195,7 @@ padding: 30px;
     display: flex;
 }
 .logobutton{
-    border:solid black;
+    /* border:solid black; */
     border-radius:50%;
 }
 .submainParent{
@@ -164,53 +207,67 @@ padding: 30px;
     
 
 }
+.smediabutton{
+  height:50px;
+  width:auto;
+}
 .mainCircles{
     border:solid black;
     border-radius:25px;
-     width:90px;
+     width:110px;
     height:40px; 
     background-color: beige;  
-    padding: 10px;
+    padding: 15px;
     text-align: center;
+    padding-bottom:5px;
+    margin-top:12px;
 }
 .mainCircles2{
     border:solid rgb(12, 8, 8);
     border-radius:25px;
-     width:90px;
+     width:110px;
     height:40px; 
     background-color: beige;  
-    padding: 10px;
+    padding: 15px;
     text-align: center;
+    padding-bottom:5px;
+    margin-top:12px;
 }
 .mainCircles3{
     border:solid black;
     border-radius:25px;
-     width:90px;
+     width:110px;
     height:40px;   
     background-color:
      beige;
-     padding: 10px;
+     padding: 15px;
+     padding-bottom:5px;
      text-align: center;
+     margin-top:12px;
 }
 .mainCircles4{
     border:solid black;
     border-radius:25px;
-     width:90px;
+     width:110px;
     height:40px;  
     background-color:
      beige; 
-     padding: 10px;
+     padding: 15px;
+     padding-bottom:5px;
      text-align: center;
+     margin-top:12px;
 }
 .mainCircles5{
     border:solid black;
     border-radius:25px;
-     width:90px;
+     width:110px;
     height:40px; 
     background-color:
      beige;  
-     padding: 10px;
+     padding: 15px;
+     padding-bottom:5px;
      text-align: center;
+     margin-top:12px;
 }
 
 
@@ -220,4 +277,14 @@ padding: 30px;
 }
 .underConstruction{
   color:red;
+}
+.jordanpic{
+  height:190px;
+  width:auto;
+  border-radius:15px;
+  margin-top:50px;
+  margin-left:30%;
+  border:solid black;
+  position: absolute;
+
 }
