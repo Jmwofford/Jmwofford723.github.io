@@ -192,12 +192,25 @@ a {
 .exampleDiv {
   border: solid beige;
   padding: 15px;
-  margin: 12px;
-  width: 500px;
+  margin: 32px;
+  margin-left:130px;
+  border-radius: 35px;
+  width: 1100px;
   height: 70px;
-  background-color: white;
+  background-color: beige;
   text-align: center;
   /* border-radius:65px; */
+}
+.exampleDiv:hover {
+  border: solid beige;
+  padding: 15px;
+  margin: 32px;
+  margin-left:130px;
+  border-radius: 35px;
+  width: 1100px;
+  height: 70px;
+  background-image:url('images/cloud.gif');
+  text-align: center;
 }
 .exDivShow {
   border: solid beige;
@@ -209,9 +222,10 @@ a {
 .exDivShow2 {
   border: solid beige;
   height: 480px;
-  width: 850px;
+  width: 1050px;
   margin-top: 25px;
   margin-left: 130px;
+  background-image:url('')
 }
 .exDivParent {
   display: flex;
@@ -223,7 +237,7 @@ a {
   height: 100px;
   margin: 3px;
   position: absolute;
-  margin-left: 1300px;
+  margin-left:1300px;
 }
 
 .logojmw:hover {
@@ -231,7 +245,8 @@ a {
   height: 100px;
   margin: 3px;
   position: absolute;
-  margin-left: 1000px;
+  margin-left:1300px;
+
 }
 .logoParent {
   justify-content: space-between;
@@ -363,4 +378,12 @@ a {
   display: none;
   position: absolute;
   margin-bottom: 200px;
+}
+.herokuLink{
+font-size:35px;
+color:beige;
+}
+.githubLink{
+  font-size:35px;
+  color:beige;
 }
