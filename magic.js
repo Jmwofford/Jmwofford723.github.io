@@ -12,9 +12,9 @@ $('.navDrop').click(function(){
    
     $('.picAppear').html(" ")
     $('.mainSections').css({ display:'flex', flexDirection: 'column'}) 
-    $( '.mainSections' ).blur()  
+    $( '.mainSections' ).blur({display: 'none'})  
     $('.picAppear').prepend(' <img class="logopic" src="/images/react.png" />') 
-    $('.picAppear').css({display:"flex"}) 
+    $('.picAppear').css({display:"flex", marginBottom:"25px"  }) 
     $('.profileMain').css({ display:'flex', flexDirection: 'column'}) 
 })
 

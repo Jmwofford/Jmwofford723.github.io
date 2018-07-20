@@ -8,6 +8,7 @@ body {
   height: 150px;
   margin: 30px;
   margin-top:80px;
+  border:solid beige;
 }
 .navDrop {
   border: solid beige;
@@ -25,6 +26,7 @@ body {
   margin-left:400px;
   border-radius:50%;
   transition:5s;
+  
 }
 h3 {
   font-size: 15px;
@@ -43,8 +45,9 @@ a {
 .nameTitle {
   margin-left: 200px;
   color: beige;
-  font-size:90px;
-  font-family:serif;
+  font-size:80px;
+  font-family:georgia;
+  /* border:solid beige; */
 }
 
 .parentSection {
@@ -68,7 +71,7 @@ a {
 }
 .mainSections:hover {
   border: solid beige;
-  margin: 15px;
+  margin: 25px;
   color: beige;
   padding: 5px;
   font-family: serif;
@@ -235,7 +238,7 @@ a {
   width: 1050px;
   margin-top: 25px;
   margin-left: 130px;
-  background-image:url('https://media.giphy.com/media/dMp9eZaAlYvvi/giphy.gif');
+  background-image:url('https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg');
   /* background-size:cover; */
   border-radius:35px;
 }
