@@ -58,7 +58,7 @@ $('.exampleDiv9').click(function(){
 $('.mainCircles').click(function(){
     console.log('Clicked')
     $('.subPageMain2').html(" ")
-    $('.subPageMain2').html("Brand Statement <br><hr>As a junior web developer I am looking to develop my skills and abilities to program dynamically rendered web-pages and server-side applications, to increase the efficiency and quality of the applications I build. My sales background allows me to approach this industry with a consumer-driven focus geared towards bridging the cap between highly-functional programs and elegantly-designed UIs . The cornerstone of the successes I intend to reach are fundamentally tied to the ability for me to learn new concepts as a software development professional. I plan to contribute my creative energy and ideas to significantly impacting this industry with exceptional products and applications.")
+    $('.subPageMain2').html("Brand Statement <br><hr>As a Junior Web Developer, I am looking to develop my skills and abilities to program dynamically rendered web-pages and server-side applications. I plan to increase the efficiency and quality of the applications I build. My sales background allows me to approach this industry with a consumer-driven focus, geared towards bridging the cap between highly-functional programs and elegantly-designed UIs. The cornerstone of the successes I intend to reach, are fundamentally tied to the ability for me to learn new concepts as a software development professional. I plan to contribute my creative energy and ideas towards significantly impacting this industry with exceptional products and applications.")
    
 })
 
@@ -66,12 +66,8 @@ $('.mainCircles2').click(function(){
     console.log('Clicked')
     $('.subPageMain2').html(" ")
 
-    $('.subPageMain2').prepend(' <img class="logopic" src="/images/mongodb.png" />')
+    $('.subPageMain2').html('<br><br><strong>Ralph Dickerson (AWDA Tech Specialists ) :</strong> rdickerson@atlanta.ga.gov <br><hr> <strong>Jamie King (General Assembly Instructor: )</strong>jamie.king@generalassemb.ly <br><hr> <strong>Cassandra Powell (New Horizons Career Coach: )</strong>cpowell@nhgeorgia.com<br><hr> ')
 
-    $('.subPageMain2').prepend(' <img class="logopic" src="/images/react.png" />')
-    $('.subPageMain2').prepend(' <img class="logopic" src="/images/rubyrails.png" />')
-    $('.subPageMain2').prepend(' <img class="logopic" src="/images/jquery.gif" />')
-    $('.subPageMain2').prepend(' <img class="logopic" src="/images/nodejs.png" />')
 
    
 })
@@ -86,7 +82,7 @@ $('.mainCircles3').click(function(){
 $('.mainCircles4').click(function(){
     console.log('Clicked')
     $('.subPageMain2').html("About Me <br><br><hr> <strong>Birth Place: </strong> Buffalo, NY <br><br><strong>Education: </strong> Lindenwood University <br><br> <strong>Major: </strong> International Business <br><br> <strong>Tech Stack (Preferred): </strong> MERNS ")
-    $('.subPageMain2').prepend(' <img class="jordanpic" src="/images/jmwga2.jpg" />')
+    $('.subPageMain2').prepend(' <img class="jordanpic" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/37204441_3534743683316_6145159505408688128_n.jpg?_nc_cat=0&oh=1e19bbbbcf9550e2d39118581ac1e186&oe=5BE7C801" />')
 
 
 })
