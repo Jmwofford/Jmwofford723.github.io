@@ -3,21 +3,22 @@ body {
   background-size: cover; */
   background-color: #34495e;
 }
-.logopic{
-  width:120px;
-  height:150px;
-  margin:30px;
+.logopic {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
+  margin-top:80px;
 }
-.navDrop{
-  border:solid black;
-  background-color:beige;
-  border-width:3px;
-  border-radius:35px;
-  margin-left:25px;
-  margin-top:25px;
+.navDrop {
+  border: solid black;
+  background-color: beige;
+  border-width: 3px;
+  border-radius: 35px;
+  margin-left: 25px;
+  margin-top: 25px;
 }
-h3{
-  font-size:15px;
+h3 {
+  font-size: 15px;
   text-align: center;
 }
 a {
@@ -27,11 +28,13 @@ a {
 
 .mainTitle {
   border: solid black;
-
+  position: relative;
 }
 .nameTitle {
-  margin-left: 400px;
+  margin-left: 200px;
   color: beige;
+  font-size:90px;
+  font-family:serif;
 }
 
 .parentSection {
@@ -41,68 +44,84 @@ a {
 }
 .mainSections {
   border: solid beige;
-  color:beige;
+  color: beige;
   margin: 15px;
   padding: 5px;
   font-family: serif;
   font-size: 15px;
-  width: 150px;
+  width: 80px;
   height: 20px;
   border-radius: 45px;
   text-align: center;
-  display:none;
+  display: none;
+  
 }
 .mainSections:hover {
   border: solid beige;
   margin: 15px;
-color: beige;
+  color: beige;
   padding: 5px;
   font-family: serif;
   font-size: 20px;
   border-radius: 65px;
   text-align: center;
-  background-color: lightgrey;
-  transition: .3s;
+  background-image:url('https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg');
+  transition: 0.3s;
 }
-.submainParent{
-padding: 30px;
-background-image: url('https://st2.depositphotos.com/1006018/7909/v/950/depositphotos_79091188-stock-illustration-burlywood-brown-polygon-background.jpg');
-width:950px;
-margin-left:50px;
-border-radius:35px;
-border:solid beige;
+.submainParent {
+  padding: 30px;
+  background-image: url("https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg");
+  width: 1250px;
+  margin-left: 50px;
+  border-radius: 35px;
+  border: solid beige;
+  margin-top:20px;
 }
+.scrolling{
+  font-size:55px;
+  font-family:cursive;
+  color: navy;
+  margin-bottom:20px;
+
+}
+.scrollpics{
+  height: 90px;
+  width:150px;
+  margin-bottom:20px;
+  margin-left: 5px;
+}
+
+
 .subPageMain {
   margin: 15px;
   padding: 10px;
   height: 300px;
   font-size: 25px;
-  font-family: cursive;
   color: white;
-  background-color:lightgrey;
+  background-color: lightgrey;
   padding: 15px;
   text-align: justify;
-  width:850px;
+  width: 1150px;
+
 }
 .subPageMain2 {
-    margin: 35px;
-    padding: 10px;
-    height: 300px;
-    font-size: 25px;
-    font-family: serif;
-    border-radius:35px;
-    border:solid beige; 
-    color:#34495e;
-    padding: 35px;
-    background-size:cover;
-    text-align: justify;
-    background-image: url('https://st2.depositphotos.com/1006018/7909/v/950/depositphotos_79091188-stock-illustration-burlywood-brown-polygon-background.jpg');
-
-  }
-  .bannerjordan{
-    height: 300px;
-    width:900px;;
-  }
+  margin: 35px;
+  padding: 10px;
+  height: 300px;
+  font-size: 25px;
+  font-family: serif;
+  border-radius: 35px;
+  border: solid beige;
+  color: white;
+  padding: 35px;
+  background-size: cover;
+  text-align: justify;
+  background-image: url("https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg");
+}
+.bannerjordan {
+  height: 300px;
+  width: 900px;
+}
 /* ================================== */
 .exampleDiv7 {
   border: solid black;
@@ -112,38 +131,43 @@ border:solid beige;
   height: 10px;
   /* background-color: lemonchiffon; */
   text-align: center;
-  border-radius:65px;
-}.exampleDiv8 {
-  border: solid black;
-  padding: 15px;
-  /* margin: 12px; */
-  width: 150px;
-  height: 8px;
-  /* background-color: lemonchiffon; */
-  text-align: center;
-  border-radius:65px;
-}.exampleDiv9 {
-  border: solid black;
-  padding: 15px;
-  /* margin: 12px; */
-  width: 150px;
-  height: 8px;
-  /* background-color: lemonchiffon; */
-  text-align: center;
-  border-radius:65px;
+  border-radius: 65px;
 }
-.exampleDiv7:hover,.exampleDiv8:hover,.exampleDiv9:hover,.exampleDiv2:hover{
+.exampleDiv8 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width: 150px;
+  height: 8px;
+  /* background-color: lemonchiffon; */
+  text-align: center;
+  border-radius: 65px;
+}
+.exampleDiv9 {
+  border: solid black;
+  padding: 15px;
+  /* margin: 12px; */
+  width: 150px;
+  height: 8px;
+  /* background-color: lemonchiffon; */
+  text-align: center;
+  border-radius: 65px;
+}
+.exampleDiv7:hover,
+.exampleDiv8:hover,
+.exampleDiv9:hover,
+.exampleDiv2:hover {
   border: solid beige;
-  color:beige; 
+  color: beige;
 }
-  /* =======================
+/* =======================
    */
-  .exampleDiv3{
-    border: solid black;
-    height:520px;
-    width:450px;
-    margin-left:360px;
-  }
+.exampleDiv3 {
+  border: solid black;
+  height: 520px;
+  width: 450px;
+  margin-left: 360px;
+}
 .exampleDiv2 {
   border: solid black;
   padding: 15px;
@@ -152,139 +176,149 @@ border:solid beige;
   height: 8px;
   /* background-color: beige; */
   text-align: center;
-  border-radius:65px;
+  border-radius: 65px;
 }
 .exampleDiv {
   border: solid black;
   padding: 15px;
   margin: 12px;
-  width:500px;
+  width: 500px;
   height: 70px;
   background-color: white;
   text-align: center;
   /* border-radius:65px; */
 }
-.exDivShow{
+.exDivShow {
   border: solid black;
   height: 180px;
   width: 850px;
-  margin-top:25px;
-  margin-left:130px;
+  margin-top: 25px;
+  margin-left: 130px;
 }
-.exDivShow2{
+.exDivShow2 {
   border: solid black;
   height: 480px;
   width: 850px;
-  margin-top:25px;
-  margin-left:130px;
+  margin-top: 25px;
+  margin-left: 130px;
 }
-.exDivParent{
+.exDivParent {
   display: flex;
   justify-content: space-around;
 }
 
 .logojmw {
-  width: 70px;
-  height: auto;
+  width: 90px;
+  height: 100px;
+  margin: 3px;
+  position: absolute;
+  margin-left: 1300px;
+}
+
+.logojmw:hover {
+  width: 90px;
+  height: 100px;
   margin: 3px;
   position: absolute;
   margin-left: 1000px;
 }
-.logoParent{
-    justify-content: space-between;
-    display: flex;
+.logoParent {
+  justify-content: space-between;
+  display: flex;
 }
-.logobutton{
-    /* border:solid black; */
-    border-radius:50%;
+.logobutton {
+  /* border:solid black; */
+  border-radius: 50%;
 }
-.submainParent{
-    border:solid black;
+.submainParent {
+  border: solid black;
 }
-.subPageMain{
-    border:solid black;
-    height:80px;
-    
-
+.subPageMain {
+  border: solid black;
+  height: 80px;
 }
-.smediabutton{
-  height:50px;
-  width:auto;
+.smediabutton {
+  height: 50px;
+  width: auto;
 }
-.mainCircles{
-    border:solid black;
-    border-radius:25px;
-     width:110px;
-    height:40px; 
-    background-color: beige;  
-    padding: 15px;
-    text-align: center;
-    padding-bottom:5px;
-    margin-top:12px;
+.mainCircles {
+  border: solid black;
+  border-radius: 25px;
+  width: 110px;
+  height: 40px;
+  background-color: beige;
+  padding: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-top: 12px;
 }
-.mainCircles2{
-    border:solid rgb(12, 8, 8);
-    border-radius:25px;
-     width:110px;
-    height:40px; 
-    background-color: beige;  
-    padding: 15px;
-    text-align: center;
-    padding-bottom:5px;
-    margin-top:12px;
+.mainCircles2 {
+  border: solid rgb(12, 8, 8);
+  border-radius: 25px;
+  width: 110px;
+  height: 40px;
+  background-color: beige;
+  padding: 15px;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-top: 12px;
 }
-.mainCircles3{
-    border:solid black;
-    border-radius:25px;
-     width:110px;
-    height:40px;   
-    background-color:
-     beige;
-     padding: 15px;
-     padding-bottom:5px;
-     text-align: center;
-     margin-top:12px;
+.mainCircles3 {
+  border: solid black;
+  border-radius: 25px;
+  width: 110px;
+  height: 40px;
+  background-color: beige;
+  padding: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 12px;
 }
-.mainCircles4{
-    border:solid black;
-    border-radius:25px;
-     width:110px;
-    height:40px;  
-    background-color:
-     beige; 
-     padding: 15px;
-     padding-bottom:5px;
-     text-align: center;
-     margin-top:12px;
+.mainCircles4 {
+  border: solid black;
+  border-radius: 25px;
+  width: 110px;
+  height: 40px;
+  background-color: beige;
+  padding: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 12px;
 }
-.mainCircles5{
-    border:solid black;
-    border-radius:25px;
-     width:110px;
-    height:40px; 
-    background-color:
-     beige;  
-     padding: 15px;
-     padding-bottom:5px;
-     text-align: center;
-     margin-top:12px;
+.mainCircles5 {
+  border: solid black;
+  border-radius: 25px;
+  width: 110px;
+  height: 40px;
+  background-color: beige;
+  padding: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 12px;
 }
 
-
-.circleParent{
-    display: flex;
-    justify-content: space-around;
+.circleParent {
+  display: flex;
+  justify-content: space-around;
 }
-.underConstruction{
-  color:red;
+.underConstruction {
+  color: red;
 }
-.jordanpic{
-  height:190px;
-  width:auto;
-  border-radius:15px;
-  margin-top:50px;
-  margin-left:30%;
-  border:solid black;
+.jordanpic {
+  height: 190px;
+  width: auto;
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 30%;
+  border: solid black;
   position: absolute;
-
+}
+.picAppear {
+  border: solid grey;
+  width: 200px;
+  height: 250px;
+  margin-left: 70px;
+  display: none;
+  position: absolute;
+  margin-bottom: 200px;
 }

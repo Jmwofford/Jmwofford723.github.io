@@ -9,7 +9,11 @@ console.log("-js connected-")
 
 $('.navDrop').click(function(){
     console.log('Clicked')
-    $('.mainSections').css({ display:'flex', flexDirection: 'column'})    
+    $('.picAppear').html(" ")
+    $('.mainSections').css({ display:'flex', flexDirection: 'column'}) 
+    $( '.mainSections' ).blur()  
+    $('.picAppear').prepend(' <img class="logopic" src="/images/react.png" />') 
+    $('.picAppear').css({display:"flex"}) 
 })
 
 $('.exampleDiv2').click(function(){
@@ -51,12 +55,15 @@ $('.exampleDiv9').click(function(){
 
 $('.mainCircles').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("As a junior web developer I am looking to develop my skills and abilities to program dynamically rendered web-pages and server-side applications, to increase the efficiency and quality of the applications I build. My sales background allows me to approach this industry with a consumer-driven focus geared towards bridging the cap between highly-functional programs and elegantly-designed UIs . The cornerstone of the successes I intend to reach are fundamentally tied to the ability for me to learn new concepts as a software development professional. I plan to contribute my creative energy and ideas to significantly impacting this industry with exceptional products and applications.")
+    $('.subPageMain2').html(" ")
+    $('.subPageMain2').html("Brand Statement <br><hr>As a junior web developer I am looking to develop my skills and abilities to program dynamically rendered web-pages and server-side applications, to increase the efficiency and quality of the applications I build. My sales background allows me to approach this industry with a consumer-driven focus geared towards bridging the cap between highly-functional programs and elegantly-designed UIs . The cornerstone of the successes I intend to reach are fundamentally tied to the ability for me to learn new concepts as a software development professional. I plan to contribute my creative energy and ideas to significantly impacting this industry with exceptional products and applications.")
    
 })
 
 $('.mainCircles2').click(function(){
     console.log('Clicked')
+    $('.subPageMain2').html(" ")
+
     $('.subPageMain2').prepend(' <img class="logopic" src="/images/mongodb.png" />')
 
     $('.subPageMain2').prepend(' <img class="logopic" src="/images/react.png" />')
@@ -69,14 +76,14 @@ $('.mainCircles2').click(function(){
 
 $('.mainCircles3').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html(" Investment Ideas +Add a Picture/Chart")
+    $('.subPageMain2').html(" <strong>Phone :</strong> (716) 717-5001 <br><hr> <strong>Email :</strong> jmwofford@gmail.com <br><hr> <strong>GitHub :</strong> https://github.com/Jmwofford <br><hr> <strong>LinkedIn :</strong> https://www.linkedin.com/in/jordan-m-wofford-aa079630/")
 
    
 })
 
 $('.mainCircles4').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("some text belongs here  ")
+    $('.subPageMain2').html("Born in Buffalo, NY with an ambition for Development and and art for the sale LIKE NO OTHER.  ")
     $('.subPageMain2').prepend(' <img class="jordanpic" src="/images/jmwga2.jpg" />')
 
 
