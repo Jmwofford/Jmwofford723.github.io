@@ -9,11 +9,13 @@ console.log("-js connected-")
 
 $('.navDrop').click(function(){
     console.log('Clicked')
+   
     $('.picAppear').html(" ")
     $('.mainSections').css({ display:'flex', flexDirection: 'column'}) 
     $( '.mainSections' ).blur()  
     $('.picAppear').prepend(' <img class="logopic" src="/images/react.png" />') 
     $('.picAppear').css({display:"flex"}) 
+    $('.profileMain').css({ display:'flex', flexDirection: 'column'}) 
 })
 
 $('.exampleDiv2').click(function(){
