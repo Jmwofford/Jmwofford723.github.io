@@ -38,6 +38,7 @@ a {
 .mainTitle {
   border: solid beige;
   position: relative;
+  border-radius: 35px;
 }
 .nameTitle {
   margin-left: 200px;
@@ -143,6 +144,8 @@ a {
   /* background-color: lemonchiffon; */
   text-align: center;
   border-radius: 65px;
+  color:beige;
+  font-size:20px;
 }
 .exampleDiv8 {
   border: solid beige;
@@ -153,6 +156,8 @@ a {
   /* background-color: lemonchiffon; */
   text-align: center;
   border-radius: 65px;
+  color:beige;
+  font-size:20px;
 }
 .exampleDiv9 {
   border: solid beige;
@@ -163,6 +168,8 @@ a {
   /* background-color: lemonchiffon; */
   text-align: center;
   border-radius: 65px;
+  color:beige;
+  font-size:20px;
 }
 .exampleDiv7:hover,
 .exampleDiv8:hover,
@@ -188,6 +195,8 @@ a {
   /* background-color: beige; */
   text-align: center;
   border-radius: 65px;
+  color:beige;
+  font-size:20px;
 }
 .exampleDiv {
   border: solid beige;
@@ -226,7 +235,9 @@ a {
   width: 1050px;
   margin-top: 25px;
   margin-left: 130px;
-  background-image:url('')
+  background-image:url('https://media.giphy.com/media/dMp9eZaAlYvvi/giphy.gif');
+  /* background-size:cover; */
+  border-radius:35px;
 }
 .exDivParent {
   display: flex;
@@ -281,23 +292,10 @@ a {
   transition:1s;
   margin-top: 12px;
   padding-bottom: 10px;
+  font-family:serif;
 
 }
-.mainCircles:hover {
-  border: solid beige;
-  border-radius: 25px;
-  width: 130px;
-  height: 50px;
-  background-color: beige;
-  padding: 5px;
-  font-size:25px;
-  text-align: center;
-  padding-bottom: 5px;
-  transition:1s;
-  margin-top: 12px;
-  padding-bottom: 10px;
 
-}
 .mainCircles2 {
   border: solid beige;
   border-radius: 25px;
@@ -311,6 +309,7 @@ a {
   transition:1s;
   margin-top: 12px;
   padding-bottom: 10px;
+  font-family:serif;
 }
 .mainCircles3 {
   border: solid beige;
@@ -325,6 +324,7 @@ a {
   transition:1s;
   margin-top: 12px;
   padding-bottom: 10px;
+  font-family:serif;
 }
 .mainCircles4 {
   border: solid beige;
@@ -339,6 +339,7 @@ a {
   transition:1s;
   margin-top: 12px;
   padding-bottom: 10px;
+  font-family:serif;
 }
 .mainCircles5 {
   border: solid beige;
@@ -353,6 +354,7 @@ a {
   transition:1s;
   margin-top: 12px;
   padding-bottom: 10px;
+  font-family:serif;
 }
 
 .circleParent {
@@ -381,10 +383,10 @@ a {
   margin-bottom: 200px;
 }
 .herokuLink{
-font-size:35px;
+font-size:25px;
 color:beige;
 }
 .githubLink{
-  font-size:35px;
+  font-size:25px;
   color:beige;
 }

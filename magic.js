@@ -38,7 +38,7 @@ $('.exampleDiv7').click(function(){
 $('.exampleDiv8').click(function(){
     console.log('Clicked')
     $('.exDivShow2').css({ backgroundImage:('url(/images/contract.png)')})
-    $('.herokuLink').html("Heroku Link (Contract App): ")
+    $('.herokuLink').html("Heroku Link (Contract App): https://floating-journey-26764.herokuapp.com/")
     $('.githubLink').html("GitHub Link: https://git.generalassemb.ly/jmwofford/Project3Actual ")
 })
 
@@ -85,7 +85,7 @@ $('.mainCircles3').click(function(){
 
 $('.mainCircles4').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("Born in Buffalo, NY with an ambition for Development and and art for the sale LIKE NO OTHER.  ")
+    $('.subPageMain2').html("About Me <br><hr> Born in Buffalo, NY with an ambition for Development and and art for the sale LIKE NO OTHER.  ")
     $('.subPageMain2').prepend(' <img class="jordanpic" src="/images/jmwga2.jpg" />')
 
 
