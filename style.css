@@ -125,7 +125,7 @@ a {
   border-radius: 35px;
   border: solid beige;
   color: white;
-  padding: 35px;
+  padding: 45px;
   background-size: cover;
   text-align: justify;
   background-image: url("https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg");
@@ -365,11 +365,12 @@ a {
   color: red;
 }
 .jordanpic {
-  height: 190px;
-  width: auto;
+  height: 260px;
+  width: 500px;
   border-radius: 15px;
-  margin-top: 50px;
-  margin-left: 30%;
+  margin-top: 76px;
+  margin-left: 50%;
+  margin-bottom:30px;
   border: solid beige;
   position: absolute;
 }

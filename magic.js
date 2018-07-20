@@ -85,7 +85,7 @@ $('.mainCircles3').click(function(){
 
 $('.mainCircles4').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("About Me <br><hr> Born in Buffalo, NY with an ambition for Development and and art for the sale LIKE NO OTHER.  ")
+    $('.subPageMain2').html("About Me <br><br><hr> <strong>Birth Place: </strong> Buffalo, NY <br><br><strong>Education: </strong> Lindenwood University <br><br> <strong>Major: </strong> International Business <br><br> <strong>Tech Stack (Preferred): </strong> MERNS ")
     $('.subPageMain2').prepend(' <img class="jordanpic" src="/images/jmwga2.jpg" />')
 
 
