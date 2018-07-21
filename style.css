@@ -25,7 +25,9 @@ body {
   position: absolute;
   margin-left:400px;
   border-radius:50%;
-  transition:5s;
+  
+  height:350px;
+  width:550px;
   
 }
 h3 {
@@ -180,6 +182,7 @@ a {
 .exampleDiv2:hover {
   border: solid beige;
   color: beige;
+  background-image:url('https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg');
 }
 /* =======================
    */
@@ -368,7 +371,7 @@ a {
 .jordanpic {
   height: 360px;
   width: 440px;
-  border-radius: 15px;
+  border-radius: 50%;
   margin-top: 76px;
   margin-left: 50%;
   border: solid beige;
