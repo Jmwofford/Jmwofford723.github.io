@@ -15,7 +15,9 @@ $('.navDrop').click(function(){
     $( '.mainSections' ).blur({display: 'none'})  
     $('.picAppear').prepend(' <img class="logopic" src="/images/react.png" />') 
     $('.picAppear').css({display:"flex", marginBottom:"25px"  }) 
-    $('.profileMain').css({ display:'flex', flexDirection: 'column'}) 
+    // $('.profileMain').css({ display:'flex', flexDirection: 'column'}) 
+    $('.mainTitle').css({ backgroundImage: ('url(/images/talk.png)')}) 
+
 })
 
 $('.exampleDiv2').click(function(){

@@ -45,9 +45,9 @@ a {
   border-radius: 35px;
 }
 .nameTitle {
-  margin-left: 200px;
+  margin-left: 450px;
   color: beige;
-  font-size:80px;
+  font-size:40px;
   font-family:georgia;
   /* border:solid beige; */
 }
@@ -62,6 +62,8 @@ a {
   color: beige;
   margin: 25px;
   padding: 5px;
+  background-image:url('https://lh6.googleusercontent.com/-8k1QUWyzpdU/VNIebmBF0lI/AAAAAAAACG8/xkXoS5NwQgs/s1600/abstract-geometric-shapes-wallpapers-1366x768-iwallhd-wallpaper-hd.jpg');
+
   font-family: serif;
   font-size: 25px;
   width: 150px;
@@ -252,20 +254,14 @@ a {
 
 .logojmw {
   width: 90px;
-  height: 100px;
+  height: 60px;
   margin: 3px;
   position: absolute;
   margin-left:1300px;
+  background-color:beige;
+  border-radius:50%;
 }
 
-.logojmw:hover {
-  width: 90px;
-  height: 100px;
-  margin: 3px;
-  position: absolute;
-  margin-left:1300px;
-
-}
 .logoParent {
   justify-content: space-between;
   display: flex;
