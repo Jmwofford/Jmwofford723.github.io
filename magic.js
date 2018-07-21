@@ -20,6 +20,13 @@ $('.navDrop').click(function(){
 
 })
 
+$('mainCircles').addClass('animated infinite tada');
+$('mainCircles2').addClass('animated infinite tada');
+$('mainCircles3').addClass('animated infinite tada');
+$('mainCircles4').addClass('animated infinite tada');
+
+
+
 $('.exampleDiv2').click(function(){
     console.log('Clicked')
     $('.exDivShow2').css({ backgroundImage:('url(/images/goatt.png)')})
