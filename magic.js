@@ -75,7 +75,7 @@ $('.mainCircles2').click(function(){
     console.log('Clicked')
     $('.subPageMain2').html(" ")
 
-    $('.subPageMain2').html('<br><br><strong>Ralph Dickerson (AWDA Tech Specialists ) :</strong> rdickerson@atlanta.ga.gov <br><hr> <strong>Jamie King (General Assembly Instructor: )</strong>jamie.king@generalassemb.ly <br><hr> <strong>Cassandra Powell (New Horizons Career Coach: )</strong>cpowell@nhgeorgia.com<br><hr> ')
+    $('.subPageMain2').html('<br><br><strong>Ralph Dickerson (AWDA Tech Specialists ) :</strong> rdickerson@atlantaga.gov <br><hr> <strong>Michael Taylor (AWDA Tech Specialist): </strong> MDTaylor@atlantaga.gov<br><hr><strong>Jamie King (General Assembly Instructor: )</strong>jamie.king@generalassemb.ly <br><hr> <strong>Cassandra Powell (New Horizons Career Coach: )</strong>cpowell@nhgeorgia.com<br><hr> ')
 
 
    
@@ -90,7 +90,7 @@ $('.mainCircles3').click(function(){
 
 $('.mainCircles4').click(function(){
     console.log('Clicked')
-    $('.subPageMain2').html("About Me <br><br><hr> <strong>Birth Place: </strong> Buffalo, NY <br><br><strong>Education: </strong> Lindenwood University <br><br> <strong>Major: </strong> International Business <br><br> <strong>Tech Stack (Preferred): </strong> MERNS ")
+    $('.subPageMain2').html("About Me <br><br><hr> <strong>Birth Place: </strong> Buffalo, NY <br><br><strong>Education: </strong> Lindenwood University <br><br> <strong>Major: </strong> International Business <br><br><strong>Work Background: </strong>Sales <strong>Tech Stack (Preferred): </strong> MERNS ")
     $('.subPageMain2').prepend(' <img class="jordanpic" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/37204441_3534743683316_6145159505408688128_n.jpg?_nc_cat=0&oh=1e19bbbbcf9550e2d39118581ac1e186&oe=5BE7C801" />')
 
 
