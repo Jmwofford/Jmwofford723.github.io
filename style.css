@@ -219,6 +219,19 @@ a {
   text-align: center;
   /* border-radius:65px; */
 }
+.exampleDivv {
+  border: solid beige;
+  padding: 15px;
+  margin: 32px;
+  margin-left:130px;
+  border-radius: 50%;
+  font-size:45px;
+  width: 1100px;
+  height: 370px;
+  background-color: beige;
+  text-align: center;
+  /* border-radius:65px; */
+}
 .exampleDiv:hover {
   border: solid beige;
   padding: 15px;
@@ -284,10 +297,10 @@ a {
 .mainCircles {
   border: solid beige;
   border-radius: 25px;
-  width: 130px;
-  height: 50px;
+  width: 170px;
+  height: 30px;
   background-color: beige;
-  padding: 5px;
+  /* padding: 5px; */
   font-size:25px;
   text-align: center;
   padding-bottom: 5px;
@@ -301,10 +314,10 @@ a {
 .mainCircles2 {
   border: solid beige;
   border-radius: 25px;
-  width: 130px;
-  height: 50px;
+  width: 170px;
+  height: 30px;
   background-color: beige;
-  padding: 5px;
+  /* padding: 5px; */
   font-size:25px;
   text-align: center;
   padding-bottom: 5px;
@@ -316,10 +329,10 @@ a {
 .mainCircles3 {
   border: solid beige;
   border-radius: 25px;
-  width: 130px;
-  height: 50px;
+  width: 170px;
+  height: 30px;
   background-color: beige;
-  padding: 5px;
+  /* padding: 5px; */
   font-size:25px;
   text-align: center;
   padding-bottom: 5px;
@@ -331,25 +344,10 @@ a {
 .mainCircles4 {
   border: solid beige;
   border-radius: 25px;
-  width: 130px;
-  height: 50px;
+  width: 170px;
+  height: 30px;
   background-color: beige;
-  padding: 5px;
-  font-size:25px;
-  text-align: center;
-  padding-bottom: 5px;
-  transition:1s;
-  margin-top: 12px;
-  padding-bottom: 10px;
-  font-family:serif;
-}
-.mainCircles5 {
-  border: solid beige;
-  border-radius: 25px;
-  width: 130px;
-  height: 50px;
-  background-color: beige;
-  padding: 5px;
+  /* padding: 5px; */
   font-size:25px;
   text-align: center;
   padding-bottom: 5px;
@@ -393,4 +391,9 @@ color:beige;
 .projectImg{
   height:200px;
   width:auto;
+}
+.textus{
+  color:beige;
+  font-size:50px;
+  font-family: cursive;
 }
